@@ -23,8 +23,8 @@ function verificaSinal(sinal){
     }
 }
 
-function calcula(n1, n2, sinal){
-    verificaVariavel()
+function calcula(){
+    verificaVariavel(n1,n2)
     const operador = verificaSinal(sinal)
     if (operador === '+'){
         return alert( n1 + n2)
@@ -37,4 +37,4 @@ function calcula(n1, n2, sinal){
     }
 }
 
-calcula(n1,n2, sinal)
+calcula()

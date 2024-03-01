@@ -83,10 +83,10 @@ function mostraResultado() {
     resultadoDiv.innerHTML = `
         <p>Código do funcionário: ${codigoFun}</p>
         <p>Horas trabalhadas: ${horasTrabalhadas}</p>
-        <p>Valor da hora trabalhada: ${valorHoraTrab}</p>
-        <p>Salário inicial: ${salInicial}</p>
-        <p>Auxílio Alimentação: ${auxAliment}</p>
-        <p>Salário Final: ${salarioTotal}</p>
+        <p>Valor da hora trabalhada: R$${valorHoraTrab.toFixed(2)}</p>
+        <p>Salário inicial: R$${salInicial.toFixed(2)}</p>
+        <p>Auxílio Alimentação: R$${auxAliment.toFixed(2)}</p>
+        <p>Salário Final: R$${salarioTotal.toFixed(2)}</p>
     `;
     document.body.appendChild(resultadoDiv);
     resultadoDiv.style.fontFamily = 'Arial'

@@ -3,7 +3,7 @@ const n1 = Number(prompt('Digite a 1° nota: '))
 const n2 = Number(prompt('Digite a 2° nota: '))
 const n3 = Number(prompt('Digite a 3° nota: '))
 
-const media = ((1 * n1) + (2 * n2) + (3 * n3))/ 6
+const media = ((2 * n1) + (5 * n2) + (3 * n3))/ 10
 
 media.toFixed(1)
 
