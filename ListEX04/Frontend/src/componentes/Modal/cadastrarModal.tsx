@@ -59,9 +59,10 @@ function CadastrarModal({ onHide, tipo, show }: CadastrarModalProps) {
       }
       if (!resultado) {
         console.error(`Erro ao cadastrar ${tipo}`);
+      }else{
+        alert(resultado?.data.message);
+        onHide();
       }
-      alert(resultado?.data.message);
-      onHide();
     } catch (error) {
       console.error(`Erro ao cadastrar ${tipo}: ${error}`);
     }

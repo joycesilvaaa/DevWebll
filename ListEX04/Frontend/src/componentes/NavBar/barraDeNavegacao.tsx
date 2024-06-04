@@ -15,8 +15,8 @@ function BarraNavegacao({ botoes }: NavBarProps) {
 
     return (
         <>
-            <nav>
-                <div className="nav-wrapper">
+            <nav >
+                <div className="nav-wrapper" >
                     <a href="#!" className="brand-logo" style={{ marginLeft: '2rem', fontSize: '25px' }}>Reserve Aqui</a>
                     <a href="#" data-target="mobile-demo" className="sidenav-trigger">
                         <i className="material-icons">menu</i>

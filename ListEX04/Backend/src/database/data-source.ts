@@ -11,7 +11,7 @@ export const Connection = new DataSource({
     username: "root",
     password: "fatec",
     database: "LISTX04",
-    synchronize: false,
+    synchronize: true,
     logging: false,
-    entities: [Cliente, Restaurante, Reservas],
+    entities: [Cliente, Restaurante, Reservas]
 });
